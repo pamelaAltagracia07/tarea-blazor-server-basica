@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "CMOuTym9YzXcYHFEh85PcGsuJdpfI3TaoQLFdjDiFZM=",
+  "Source": "Blazor-app-vehiculos",
+  "BasePath": "_content/Blazor-app-vehiculos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Blazor-app-vehiculos/wwwroot",
+      "Source": "Blazor-app-vehiculos",
+      "ContentRoot": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/wwwroot/",
+      "BasePath": "_content/Blazor-app-vehiculos",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/bundle/Blazor-app-vehiculos.styles.css",
+      "SourceId": "Blazor-app-vehiculos",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/bundle/",
+      "BasePath": "_content/Blazor-app-vehiculos",
+      "RelativePath": "Blazor-app-vehiculos.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/bundle/Blazor-app-vehiculos.styles.css"
+    },
+    {
+      "Identity": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/projectbundle/Blazor-app-vehiculos.bundle.scp.css",
+      "SourceId": "Blazor-app-vehiculos",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "BasePath": "_content/Blazor-app-vehiculos",
+      "RelativePath": "Blazor-app-vehiculos.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/projectbundle/Blazor-app-vehiculos.bundle.scp.css"
+    },
+    {
+      "Identity": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/wwwroot/favicon.ico",
+      "SourceId": "Blazor-app-vehiculos",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/wwwroot/",
+      "BasePath": "_content/Blazor-app-vehiculos",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    }
+  ]
+}

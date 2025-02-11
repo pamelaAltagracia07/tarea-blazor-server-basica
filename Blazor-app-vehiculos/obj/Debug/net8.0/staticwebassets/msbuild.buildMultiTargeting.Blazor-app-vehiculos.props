@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Blazor-app-vehiculos.props" />
+</Project>
