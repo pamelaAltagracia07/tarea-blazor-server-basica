@@ -22,10 +22,22 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/Components/Layout/DiseñoPrincipal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvRGlzZcOxb1ByaW5jaXBhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/Components/Pages/Vehicles.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9WZWhpY2xlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/Components/Layout/BarraNavegacion.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvQmFycmFOYXZlZ2FjaW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-i1b9nrjc8z
+
 [/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-yu142uztcf
+build_metadata.AdditionalFiles.CssScope = b-zjbtiigurm

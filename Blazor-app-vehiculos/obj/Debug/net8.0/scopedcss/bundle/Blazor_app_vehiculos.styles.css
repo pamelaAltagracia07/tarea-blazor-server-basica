@@ -1,0 +1,33 @@
+/* _content/Blazor_app_vehiculos/Components/Layout/BarraNavegacion.razor.rz.scp.css */
+.navbar-brand[b-i1b9nrjc8z] {
+    font-size: 1.1rem;
+}
+
+.nav-item[b-i1b9nrjc8z] {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+}
+
+.nav-item[b-i1b9nrjc8z]  a {
+    color: #d7d7d7;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+
+.nav-item[b-i1b9nrjc8z]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-i1b9nrjc8z]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.bi[b-i1b9nrjc8z] {
+    margin-right: 0.5rem;
+} 
+/* _content/Blazor_app_vehiculos/Components/Pages/Home.razor.rz.scp.css */

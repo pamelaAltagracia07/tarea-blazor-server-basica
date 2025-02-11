@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "Hash": "CMOuTym9YzXcYHFEh85PcGsuJdpfI3TaoQLFdjDiFZM=",
-  "Source": "Blazor-app-vehiculos",
-  "BasePath": "_content/Blazor-app-vehiculos",
+  "Hash": "7pgtW+sVFdHOsH3lmJ41lG5ncI+1uEq+IDpsouaRpgE=",
+  "Source": "Blazor_app_vehiculos",
+  "BasePath": "_content/Blazor_app_vehiculos",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "Blazor-app-vehiculos/wwwroot",
-      "Source": "Blazor-app-vehiculos",
+      "Name": "Blazor_app_vehiculos/wwwroot",
+      "Source": "Blazor_app_vehiculos",
       "ContentRoot": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/wwwroot/",
-      "BasePath": "_content/Blazor-app-vehiculos",
+      "BasePath": "_content/Blazor_app_vehiculos",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/bundle/Blazor-app-vehiculos.styles.css",
-      "SourceId": "Blazor-app-vehiculos",
+      "Identity": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/bundle/Blazor_app_vehiculos.styles.css",
+      "SourceId": "Blazor_app_vehiculos",
       "SourceType": "Computed",
       "ContentRoot": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/bundle/",
-      "BasePath": "_content/Blazor-app-vehiculos",
-      "RelativePath": "Blazor-app-vehiculos.styles.css",
+      "BasePath": "_content/Blazor_app_vehiculos",
+      "RelativePath": "Blazor_app_vehiculos.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/bundle/Blazor-app-vehiculos.styles.css"
+      "OriginalItemSpec": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/bundle/Blazor_app_vehiculos.styles.css"
     },
     {
-      "Identity": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/projectbundle/Blazor-app-vehiculos.bundle.scp.css",
-      "SourceId": "Blazor-app-vehiculos",
+      "Identity": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/projectbundle/Blazor_app_vehiculos.bundle.scp.css",
+      "SourceId": "Blazor_app_vehiculos",
       "SourceType": "Computed",
       "ContentRoot": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/projectbundle/",
-      "BasePath": "_content/Blazor-app-vehiculos",
-      "RelativePath": "Blazor-app-vehiculos.bundle.scp.css",
+      "BasePath": "_content/Blazor_app_vehiculos",
+      "RelativePath": "Blazor_app_vehiculos.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -52,14 +52,14 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/projectbundle/Blazor-app-vehiculos.bundle.scp.css"
+      "OriginalItemSpec": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/obj/Debug/net8.0/scopedcss/projectbundle/Blazor_app_vehiculos.bundle.scp.css"
     },
     {
       "Identity": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/wwwroot/favicon.ico",
-      "SourceId": "Blazor-app-vehiculos",
+      "SourceId": "Blazor_app_vehiculos",
       "SourceType": "Discovered",
       "ContentRoot": "/workspaces/tarea-blazor-server-basica/Blazor-app-vehiculos/wwwroot/",
-      "BasePath": "_content/Blazor-app-vehiculos",
+      "BasePath": "_content/Blazor_app_vehiculos",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",

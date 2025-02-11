@@ -1,0 +1,31 @@
+.navbar-brand[b-yer8nyoc31] {
+    font-size: 1.1rem;
+}
+
+.nav-item[b-yer8nyoc31] {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+}
+
+.nav-item[b-yer8nyoc31]  a {
+    color: #d7d7d7;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+
+.nav-item[b-yer8nyoc31]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-yer8nyoc31]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.bi[b-yer8nyoc31] {
+    margin-right: 0.5rem;
+} 

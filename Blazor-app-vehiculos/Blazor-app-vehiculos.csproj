@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Blazor_app_vehiculos</RootNamespace>
-    <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
+    <AssemblyName>Blazor_app_vehiculos</AssemblyName>
   </PropertyGroup>
 
 </Project>

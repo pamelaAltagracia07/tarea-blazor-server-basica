@@ -1,0 +1,131 @@
+@page "/vehiculos"
+@using Blazor_app_vehiculos.Models
+@using Blazor_app_vehiculos.Services
+@inject VehicleService VehicleService
+@rendermode InteractiveServer
+
+<h3>Gestión de Vehículos</h3>
+
+@if (isLoading)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <EditForm Model="@newVehicle" OnValidSubmit="HandleValidSubmit" FormName="vehicle-form">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group mb-3">
+            <label for="brand">Marca:</label>
+            <InputText id="brand" @bind-Value="newVehicle.Brand" class="form-control" />
+            <ValidationMessage For="@(() => newVehicle.Brand)" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="model">Modelo:</label>
+            <InputText id="model" @bind-Value="newVehicle.Model" class="form-control" />
+            <ValidationMessage For="@(() => newVehicle.Model)" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="year">Año:</label>
+            <InputNumber id="year" @bind-Value="newVehicle.Year" class="form-control" />
+            <ValidationMessage For="@(() => newVehicle.Year)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </EditForm>
+
+    @if (vehicles != null && vehicles.Any())
+    {
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Año</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var vehicle in vehicles)
+                {
+                    <tr>
+                        <td>@vehicle.Brand</td>
+                        <td>@vehicle.Model</td>
+                        <td>@vehicle.Year</td>
+                        <td>
+                            <button class="btn btn-danger" @onclick="() => DeleteVehicle(vehicle.Id)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info mt-4">
+            No hay vehículos registrados.
+        </div>
+    }
+}
+
+@code {
+    private Vehicle newVehicle = new() { Year = DateTime.Now.Year };
+    private List<Vehicle> vehicles = new();
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await LoadVehicles();
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task LoadVehicles()
+    {
+        vehicles = await VehicleService.GetAll();
+        StateHasChanged();
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            if (newVehicle.Id == 0)
+            {
+                await VehicleService.Add(newVehicle);
+            }
+            else
+            {
+                await VehicleService.Update(newVehicle);
+            }
+
+            newVehicle = new() { Year = DateTime.Now.Year };
+            await LoadVehicles();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al guardar el vehículo: {ex.Message}");
+        }
+    }
+
+    private async Task DeleteVehicle(int id)
+    {
+        try
+        {
+            await VehicleService.Delete(id);
+            await LoadVehicles();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al eliminar el vehículo: {ex.Message}");
+        }
+    }
+} 
