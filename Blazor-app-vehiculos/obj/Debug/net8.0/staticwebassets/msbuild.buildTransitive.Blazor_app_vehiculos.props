@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\Blazor_app_vehiculos.props" />
+  <Import Project="../buildMultiTargeting/Blazor_app_vehiculos.props" />
 </Project>
